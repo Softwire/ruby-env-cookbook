@@ -1,4 +1,4 @@
-config = node['ruby_env_cookbook'][:rbenv]
+config = node['ruby_env_cookbook']['rbenv']
 
 version = config[:version]
 user = config[:user]

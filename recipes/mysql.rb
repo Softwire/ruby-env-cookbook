@@ -1,4 +1,4 @@
-config = node[:ruby_env_cookbook][:mysql]
+config = node['ruby_env_cookbook']['mysql']
 
 mysql_service config[:service_name] do
   port config[:port]
