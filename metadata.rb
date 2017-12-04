@@ -1,0 +1,12 @@
+name             'ruby-env-cookbook'
+maintainer       'Softwire'
+maintainer_email 'drw@softwire.com'
+license          'All rights reserved'
+description      'Installs/Configures a ruby dev environment'
+long_description 'Installs/Configures a ruby dev environment'
+version          '0.1.0'
+
+depends 'apt', '~> 2.9.2'
+depends 'mysql', '~> 8.0'
+depends 'phantomjs2', '~> 1.1.0'
+depends 'ruby_rbenv', '~> 2.0.5'

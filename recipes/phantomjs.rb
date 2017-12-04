@@ -1,0 +1,1 @@
+include_recipe 'phantomjs2::default'

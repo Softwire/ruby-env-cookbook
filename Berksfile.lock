@@ -1,0 +1,15 @@
+DEPENDENCIES
+  ruby-env-cookbook
+    path: .
+    metadata: true
+
+GRAPH
+  apt (2.9.2)
+  mysql (8.5.1)
+  phantomjs2 (1.1.0)
+  ruby-env-cookbook (0.1.0)
+    apt (~> 2.9.2)
+    mysql (~> 8.0)
+    phantomjs2 (~> 1.1.0)
+    ruby_rbenv (~> 2.0.5)
+  ruby_rbenv (2.0.5)
