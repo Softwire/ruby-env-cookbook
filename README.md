@@ -103,12 +103,13 @@ Include `ruby-env-cookbook` recipes in your node's `run_list`:
 
 or in a vagrant environment:
 ```
-chef.add_recipe 'chips::apt'
-chef.add_recipe 'chips::mysql'
-chef.add_recipe 'chips::phantomjs'
-chef.add_recipe 'chips::rbenv'
+chef.add_recipe 'ruby-env-cookbook::apt'
+chef.add_recipe 'ruby-env-cookbook::mysql'
+chef.add_recipe 'ruby-env-cookbook::phantomjs'
+chef.add_recipe 'ruby-env-cookbook::rbenv'
 ```
 
 ## License and Authors
 
+License:: MIT License
 Author:: Daniel Waters (daniel.waters@softwire.com)

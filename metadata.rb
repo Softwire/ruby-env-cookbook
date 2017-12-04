@@ -1,7 +1,7 @@
 name             'ruby-env-cookbook'
 maintainer       'Softwire'
 maintainer_email 'drw@softwire.com'
-license          'All rights reserved'
+license          'MIT License'
 description      'Installs/Configures a ruby dev environment'
 long_description 'Installs/Configures a ruby dev environment'
 version          '0.1.0'
