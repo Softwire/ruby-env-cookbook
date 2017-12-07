@@ -4,10 +4,10 @@ maintainer_email 'drw@softwire.com'
 license          'MIT'
 description      'Installs/Configures a ruby dev environment'
 long_description 'Installs/Configures a ruby dev environment'
-version          '0.1.2'
+version          '0.1.3'
 chef_version     '>= 12.1' if respond_to?(:chef_version)
-issues_url       'https://github.com/dan-waters/ruby-env-cookbook'
-source_url       'https://github.com/dan-waters/ruby-env-cookbook'
+issues_url       'https://github.com/Softwire/ruby-env-cookbook'
+source_url       'https://github.com/Softwire/ruby-env-cookbook'
 supports         'ubuntu'
 
 depends 'apt', '~> 2.9.2'
