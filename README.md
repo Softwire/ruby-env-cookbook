@@ -95,8 +95,11 @@ Include `ruby-env-cookbook` recipes in your node's `run_list`:
   "run_list": [
     "recipe[ruby-env-cookbook::apt]",
     "recipe[ruby-env-cookbook::mysql]",
+    "recipe[ruby-env-cookbook::nodejs]",
     "recipe[ruby-env-cookbook::phantomjs]",
-    "recipe[ruby-env-cookbook::rbenv]"
+    "recipe[ruby-env-cookbook::redis]",
+    "recipe[ruby-env-cookbook::rbenv]",
+    "recipe[ruby-env-cookbook::yum]"
   ]
 }
 ```
@@ -105,8 +108,11 @@ or in a vagrant environment:
 ```
 chef.add_recipe 'ruby-env-cookbook::apt'
 chef.add_recipe 'ruby-env-cookbook::mysql'
+chef.add_recipe 'ruby-env-cookbook::nodejs'
 chef.add_recipe 'ruby-env-cookbook::phantomjs'
+chef.add_recipe 'ruby-env-cookbook::redis'
 chef.add_recipe 'ruby-env-cookbook::rbenv'
+chef.add_recipe 'ruby-env-cookbook::yum'
 ```
 
 ## License and Authors

@@ -1,5 +1,9 @@
 # 0.1.3
 
+Added yum, redis and nodejs recipes
+
+# 0.1.3
+
 Updating issue/source URLs
 
 # 0.1.2
